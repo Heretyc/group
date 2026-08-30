@@ -16,3 +16,5 @@ The JSON is code and uses Unicode character space since the program requires ful
 
 Only if you have SMCP running, Orchestration is not used for this permissions operation, do work inline and directly. If you do not know what `smcp` is, ignore this line.
 
+If asked to add a "supervisor", you would add the user to all roles.
+
