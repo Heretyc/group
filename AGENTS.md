@@ -14,5 +14,5 @@ If available, use Windows MCP for Github actions via Powershell on Windows. Avoi
 
 The JSON is code and uses Unicode character space since the program requires full unicode-parity with perms. Ensure full and exact Unicode characters provided are exactly what appears in final JSON.
 
-Orchestration is not used for this permissions operation.
+Only if you have SMCP running, Orchestration is not used for this permissions operation, do work inline and directly. If you do not know what `smcp` is, ignore this line.
 
