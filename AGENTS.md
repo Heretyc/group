@@ -9,3 +9,10 @@ Each time this repository is loaded, you MUST ALWAYS perform a full git refresh 
 NEVER create branches or PRs. This is a data directory for other reasons than delivering a product or application. It is a control channel.
 
 If available, use Windows MCP for Github actions via Powershell on Windows. Avoid use of Bash on Windows.
+
+
+
+The JSON is code and uses Unicode character space since the program requires full unicode-parity with perms. Ensure full and exact Unicode characters provided are exactly what appears in final JSON.
+
+Orchestration is not used for this permissions operation.
+
