@@ -18,3 +18,6 @@ Only if you have SMCP running, Orchestration is not used for this permissions op
 
 If asked to add a "supervisor", you would add the user to all roles.
 
+The source repository is https://github.com/The-Verified/group. The mirror repository is https://github.com/Heretyc/group. The mirror must contain the same files and exact commits as the source.
+
+Refresh from origin only. After every committed repository change, push main to both repositories and verify that their main commit IDs match. The origin remote has both repository URLs configured for pushing from this checkout. Keep that configuration when working here; in other checkouts, explicitly push to both repositories.
