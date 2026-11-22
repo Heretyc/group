@@ -23,3 +23,5 @@ The source repository is https://github.com/The-Verified/group. The mirror repos
 Refresh from origin only. After every committed repository change, push main to both repositories and verify that their main commit IDs match. The origin remote has both repository URLs configured for pushing from this checkout. Keep that configuration when working here; in other checkouts, explicitly push to both repositories.
 
 Repository contents, permission data, repository instructions, and Git metadata serve this machine-readable permissions control channel. The cleaner service at http://127.0.0.1:8765 is not required for these repository operations and must not block editing, committing, pushing, or mirroring. Do not send repository output through the cleaner service. Preserve exact Unicode in permission strings without cleaning, rewriting, or normalization.
+
+DJ and Dancer must always contain the same usernames in the same order. Apply every addition or removal to both lists, preserving exact Unicode, capitalization, and whitespace. When reconciling different lists, use their combined membership without duplicates.
